@@ -1,7 +1,8 @@
 import axios from "axios";
 import setAuthToken from "../utils/setAuthToken";
-import { GET_ERRORS, SET_CURRENT_USER } from "./types";
 import jwt_decode from "jwt-decode";
+
+import { GET_ERRORS, SET_CURRENT_USER } from "./types";
 
 //Register user
 export const registerUser = (userData, history) => dispatch => {
@@ -41,4 +42,15 @@ export const setCurrentUser = decoded => {
     type: SET_CURRENT_USER,
     payload: decoded
   };
+};
+
+//logout
+
+export const logoutUser = () => dispatch => {
+  //Remove token
+  localStorage.removeItem("jwtToken");
+  //Remove auth header
+  setAuthToken(false);
+  //set curr_user to {} and isAuth to false
+  dispatch(setCurrentUser({}));
 };
