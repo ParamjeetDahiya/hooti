@@ -1,0 +1,37 @@
+.header{
+    margin: 0;
+    padding: 0;
+    height: 50px;
+    background:#fff;
+    border:#eee 1px solid;
+}
+.logo{
+    text-decoration: none;
+    font-size: 23px;
+    width: 30%;
+}
+.header h2{
+    color:#EE2E24;
+    margin: 0.5% 0;
+    margin-left:5%;
+    font-weight: 900;
+    width: 100px;
+    height: 100%;
+    float:left;
+}
+.quote{
+    line-height: 50px;
+    color:rgb(77, 74, 74);
+    display: inline;
+}
+.togglelogin{
+    margin-top:5px; 
+    float: right;
+    margin-right:80px;
+    border-radius: 15px;
+    padding: 5px;
+    width: 120px;
+    height: 20px;
+    border: 1px solid black;
+    color:black;
+}

@@ -1,0 +1,71 @@
+.form{
+    width: 50%;
+    margin: 0 auto;
+    margin-top:100px;
+    margin-left:25%; 
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.form h3{
+    font-size:13px;
+    text-align: center;
+    font-weight: 300;
+}
+.left{
+    width: 40%;
+    background: rgb(146, 15, 15);
+    height: 350px;
+    float: left;
+    padding-top:30px; 
+    padding-left:20px; 
+    border-radius:3px; 
+    border-top:10px solid #eee;
+    background-position: left  !important;
+    background-repeat: no-repeat !important;
+    background-size:cover !important; 
+}
+
+.is-invalid{
+    color:red;
+    border-color: red ;
+    border: 5px red solid;
+}
+.left li{
+    color:#fff;
+    list-style: none;
+    font-size: 12px;
+    padding: 10px 20px;
+    font-weight: 100;
+    line-height: 20px;
+}
+.right{
+    width: 50%;
+    height: 350px;
+    float: left;
+    text-align: center;
+    
+    border-top:10px solid #eee;
+}
+.right h3{
+    font-size:20px; 
+    font-weight: 600;
+}
+.login input{
+    width: 250px;
+    height: 35px;
+    padding: 5px;
+    font-size: 15px;
+    background: #eee;
+    border: 0;
+    margin: 10px;
+}
+.login h3{
+    font-size:12px;
+    text-align: center;
+    font-weight: 600;
+
+}
+.invalid-feedback{
+    font-size: 12px;
+    color: red;
+}
