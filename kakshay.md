@@ -1,0 +1,30 @@
+# MyName
+
+## About me:
+
+I'm an EC Engineering student from MyState. I love programming and reading blogs on Machine Learning.
+
+## Certificates:
+
+- Machine Learning Foundation
+- Deep Learning Foundation
+
+## Languages that I know:
+
+- Python
+- C
+- C++
+- Swift
+- JS
+- PHP
+
+## Frameworks and Technologies that I know:
+
+- Tensorflow
+- Flask
+- VueJs
+
+[Check out my GitHub](https://github.com/myusername)
+
+Email me: myemail@gmail.com
+
